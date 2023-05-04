@@ -133,6 +133,7 @@ ul {
     gap: 30px;
 }
 
+
 .third {
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -145,11 +146,13 @@ ul {
     width: max-content;
 }
 
+
 .learn2 {
     border-bottom: 4px solid pink;
     width: max-content;
     margin-bottom: 30px;
 }
+
 
 .graphic {
     text-align: center;
@@ -297,4 +300,26 @@ ul {
     flex-direction: row;
     gap: 15px;
     padding: 30px;
+}
+
+
+
+
+
+
+
+@media (width <= 900px) {
+    header {
+        /* background-image: url(/images/desktop/image-header.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+        display: none;
+    }
+
+
+    ul {
+        display: none;
+    }
 }
